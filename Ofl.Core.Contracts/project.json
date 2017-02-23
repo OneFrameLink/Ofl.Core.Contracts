@@ -1,0 +1,30 @@
+﻿{
+  "authors": [ "One Frame Link" ],
+  "description": "Abstractions used by the Ofl.Core project",
+  "supports": {},
+  "dependencies": {
+    "Microsoft.NETCore.Portable.Compatibility": "1.0.1",
+    "NETStandard.Library": "1.6.0",
+    "System.Net.Http": "4.3.1"
+  },
+  "frameworks": {
+    "netstandard1.1": {}
+  },
+  "packOptions": {
+    "owners": [ "One Frame Link" ],
+
+    "summary": "Abstractions used by the Ofl.Core project.",
+
+    "projectUrl": "https://github.com/OneFrameLink/Ofl.Core.Contracts",
+
+    "iconUrl": "https://raw.githubusercontent.com/OneFrameLink/Ofl._Shared/master/OneFrameLink_225x225.png",
+
+    "licenseUrl": "https://raw.githubusercontent.com/OneFrameLink/Ofl._Shared/master/LICENSE.md",
+    "requireLicenseAcceptance": true,
+
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/OneFrameLink/Ofl.Core.Contracts.git"
+    }
+  }
+}
