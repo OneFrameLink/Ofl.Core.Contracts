@@ -1,14 +1,11 @@
 ﻿using System.Net.Http;
 using System.Threading;
+using System.Threading.Tasks;
 
 namespace Ofl.Core.Net.Http
 {
     public interface IHttpClientFactory
     {
-        HttpClient CreateAsync(CancellationToken cancellationToken);
-
-        HttpClient CreateAsync(HttpMessageHandler handler, CancellationToken cancellationToken);
-
-        HttpClient CreateAsync(HttpMessageHandler handler, bool disposeHandler, CancellationToken cancellationToken);
+        Task<HttpClient> CreateAsync(HttpMessageHandler handler, bool disposeHandler, CancellationToken cancellationToken);
     }
 }
